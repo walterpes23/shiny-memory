@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   
+    <title>Mi propia web Familiar</title>
+</head>
+<body>
+    <div class="ful_img" id="fulImgBox">
+        <img src="./IMG/01.jpg" id="fulImg" alt="">
+        <span onclick="closeImg()">x</span>
+    </div>
+    <header><h1>MI FAMILIA</h1></header>
+    <nav>
+        <ul>
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./02-fotos.html">FOTOS</a></li>
+            <li><a href="./01-videos.html">VIDEOS</a></li>
+            <li><a href="./03-descargas.html">DESCARGAS</a></li>
+        </ul>
+    </nav>
+    <h2><span>Tamy y yo</span></h2>
+    <aside>
+    <div class="imgGaleria">
+        <img src="./IMG/01.jpg" onclick="openFullImg(this.src)" alt="" srcset="">
+        <img src="./IMG/02.jpg" onclick="openFullImg(this.src)" alt="" srcset="">
+        <img src="./IMG/03.jpg" onclick="openFullImg(this.src)" alt="" srcset="">
+        <img src="./IMG/04.jpg" onclick="openFullImg(this.src)" alt="" srcset="">
+        <img src="./IMG/05.jpg" onclick="openFullImg(this.src)" alt="" srcset="">
+        <img src="./IMG/06.jpg" onclick="openFullImg(this.src)" alt="" srcset="">
+        <img src="./IMG/07.jpg" onclick="openFullImg(this.src)" alt="" srcset="">
+        <img src="./IMG/09.jpg" onclick="openFullImg(this.src)" alt="" srcset="">
+    </div>
+    <script src="./script.js"></script>  
+    
+    </aside>
+    <footer><ul>
+        <li><a href="">Informacion</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Ayuda</a></li>
+        <li><a href="">Privacidad</a></li>
+        <li><a href="">@2023 WalterPes23.com</a></li>
+    </ul></footer>
+</body>
+</html>
